@@ -7,8 +7,6 @@ const go = () => {
   if (name)
     router.push(`/hi/${encodeURIComponent(name)}`)
 }
-
-const { t } = useI18n()
 </script>
 
 <template>
@@ -22,7 +20,7 @@ const { t } = useI18n()
       </a>
     </p>
     <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
+      <em text-sm opacity-75>Finnish Acrobatic Convention</em>
     </p>
 
     <div py-4 />
