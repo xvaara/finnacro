@@ -1,30 +1,24 @@
 {
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-1f98fd8d.js"
+    "/assets/404-3184c879.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-1f98fd8d.js"
+    "/assets/404-3184c879.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-fec41e2c.js"
-  ],
-  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-043448e4.js"
-  ],
-  "src/pages/hi/[name].vue": [
-    "/assets/_name_-043448e4.js"
-  ],
-  "src/pages/404.vue": [
-    "/assets/404-ca12c436.js"
+    "/assets/_...all_-f79eef2c.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home-9445b763.js"
+    "/assets/home-00a5d3c8.js"
+  ],
+  "src/pages/404.vue": [
+    "/assets/404-f1d4cb9a.js"
   ],
   "src/pages/about.md": [
-    "/assets/about-f0730d98.js"
+    "/assets/about-c03bc344.js"
   ],
   "src/pages/README.md": [
-    "/assets/README-9277d80d.js"
+    "/assets/README-11248b70.js"
   ],
   "\u0000vite/modulepreload-polyfill": [],
   "node_modules/.pnpm/@vue+shared@3.2.45/node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
