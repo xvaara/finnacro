@@ -34,7 +34,7 @@ import Aikataulu from './components/aikataulu.md'
     </div>
     <div flex flex-wrap lg:flex-nowrap gap-3 m-3>
       <div class="w-screen lg:w-1/2 text-center">
-        <img src="kartta.png">
+        <img src="/kartta.png">
       </div>
       <div class="w-screen lg:w-1/2 text-left m-3">
         <ul class="list-disc">
