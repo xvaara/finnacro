@@ -1,24 +1,47 @@
 {
+  "src/layouts/home.vue": [
+    "/assets/home-f9583eaf.js"
+  ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-3184c879.js"
+    "/assets/404-5b5858dc.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-3184c879.js"
+    "/assets/404-5b5858dc.js"
   ],
-  "src/pages/[...all].vue": [
-    "/assets/_...all_-f79eef2c.js"
-  ],
-  "src/layouts/home.vue": [
-    "/assets/home-00a5d3c8.js"
-  ],
-  "src/pages/404.vue": [
-    "/assets/404-f1d4cb9a.js"
+  "src/pages/2022/components/aikataulu.md": [
+    "/assets/aikataulu-5b69717f.js"
   ],
   "src/pages/about.md": [
-    "/assets/about-c03bc344.js"
+    "/assets/about-682e9703.js"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_-77061370.js"
   ],
   "src/pages/README.md": [
-    "/assets/README-11248b70.js"
+    "/assets/README-6f1912be.js"
+  ],
+  "src/pages/404.vue": [
+    "/assets/404-9dc471de.js"
+  ],
+  "../../../../../kartta.png": [
+    "/assets/index-1b9c7308.js",
+    "/assets/index-707a424a.css"
+  ],
+  "src/pages/2022/components/kartta.vue": [
+    "/assets/index-1b9c7308.js",
+    "/assets/index-707a424a.css"
+  ],
+  "src/pages/2022/components/schedule.vue": [
+    "/assets/index-1b9c7308.js",
+    "/assets/index-707a424a.css"
+  ],
+  "src/pages/2022/index.vue?vue&type=style&index=0&scoped=60ef4463&lang.css": [
+    "/assets/index-1b9c7308.js",
+    "/assets/index-707a424a.css"
+  ],
+  "src/pages/2022/index.vue": [
+    "/assets/index-1b9c7308.js",
+    "/assets/index-707a424a.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],
   "node_modules/.pnpm/@vue+shared@3.2.45/node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
@@ -54,8 +77,6 @@
   "\u0000virtual:vue-component-preview": [],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [],
   "src/App.vue": [],
-  "src/store/user.ts": [],
-  "src/pages/index.vue?vue&type=script&setup=true&lang.ts": [],
   "../../../../../@vite-plugin-pages/route-block": [],
   "src/pages/index.vue": [],
   "../../../../../@vite-plugin-pages/generated-pages?id=~pages": [],
