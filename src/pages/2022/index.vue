@@ -22,7 +22,11 @@ import Aikataulu from './components/aikataulu.md'
           Paikkana toimii Jyväskylän Parkourakatemia ja Sirkuskoulu, sekä Jaguars Spirit Athletes:in cheerleading sali.
           Salit sijaitsevat Jyväskylän Seppälässä, kävelyetäisyydellä toisistaan.
         </p>
-        <p />
+        <p>
+          Yhteystietoja:<br>
+          Jukka  <a href="tel:+358503285111">050 328 5111</a> <a href="mailto:jukka.raimovaara@sirkuskoulu.fi">jukka.raimovaara@sirkuskoulu.fi</a><br>
+          Perttu <a href="tel:+358503021696">050 302 1696</a><br>
+        </p>
       </div>
       <div class="w-screen lg:w-1/2">
         <Kartta />
