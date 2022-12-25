@@ -11,7 +11,9 @@ import Aikataulu from './components/aikataulu.md'
     <h2>Aikataulu</h2>
     <Aikataulu />
 
+    <h2>Workshopit</h2>
     <Schedule />
+
     <h2>Tilat</h2>
 
     <div flex flex-wrap lg:flex-nowrap gap-3 m-3>
