@@ -1,1 +1,0 @@
-import{_ as c,o,c as r,l as e}from"./app-205f9b80.js";const n={};function t(a,f){return o(),r("div",null," Sivua ei löytynyt ")}typeof e=="function"&&e(n);const _=c(n,[["render",t],["__file","/home/runner/work/finnacro/finnacro/src/pages/404.vue"]]);export{_ as default};
