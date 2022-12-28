@@ -6,6 +6,7 @@
 - 15:00 - 15:30 Työpajoihin jakautuminen Sirkuskoululla
 - 15:30 - 17:30 Työpajat
 - 17:30 - 19:00 Päivällistauko
+- 18:30 - 19:00 Sirkusfysio Q&A
 - 17:30 - 22:00 Vapaata treeniaikaa, jamittelua ja hengailua Sirkuskoululla
 - 22:00 → Hiljaisuus Sirkuskoululla
 

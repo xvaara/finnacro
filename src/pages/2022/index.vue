@@ -101,7 +101,7 @@ import Aikataulu from './components/aikataulu.md'
       <ul class="list-disc">
         <li>Sirkussalin reunalta löytyy kierrätysroskikset biojätteelle, muoville, lasille ja metallille, ja näiden takaa avotoimistosta löydät paperinkeräyksen - käytäthän näitä ja autat meitä säästämään luontoa.</li>
         <li>Huolehditaanhan yhdessä salin ja yhteisten tilojen siisteydestä!</li>
-        <li>Jos huomaat sotkuja tai että jotain uupuu, ilmoitathan asiasta Oranssien Paitojen Klaanille!</li>
+        <li>Jos huomaat sotkuja tai että jotain uupuu, ilmoitathan asiasta henkilökunnalle.</li>
       </ul>
     </div>
 
@@ -109,7 +109,7 @@ import Aikataulu from './components/aikataulu.md'
     <div class="text-left m-3">
       <ul class="list-disc">
         <li>Ohjaajat ovat vastuussa työpajojen turvallisuudesta - jos huomaat turvallisuusriskejä, ilmoitathan ohjaajallesi!</li>
-        <li>Jokaisessa salissa on ensiaputarvikkeita. Tarvittaessa pyydä niitä ohjaajalta tai Oranssien Paitojen Klaanilta.</li>
+        <li>Jokaisessa salissa on ensiaputarvikkeita. Tarvittaessa pyydä niitä ohjaajalta tai henkilökunnalta.</li>
         <li>Suosittelemme noudattamaan harjoittelussa huolellisuutta ja varovaisuutta, sekä välttämään turhaa riskinottoa. Pitäkää paitsi itsestänne, myös toisistanne, huolta!</li>
       </ul>
     </div>
