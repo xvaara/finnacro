@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const url = 'https://google.com'
-window.location.replace(url)
+if (typeof window !== 'undefined')
+  window.location.replace(url)
 </script>
 
 <template>
