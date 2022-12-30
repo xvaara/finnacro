@@ -1,57 +1,63 @@
 {
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-2de7097b.js"
+    "/assets/404-335740ec.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-2de7097b.js"
+    "/assets/404-335740ec.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home-99f25510.js"
-  ],
-  "src/pages/README.md": [
-    "/assets/README-15ea4bbf.js"
-  ],
-  "src/pages/404.vue": [
-    "/assets/404-1280c0a7.js"
-  ],
-  "src/pages/[...all].vue": [
-    "/assets/_...all_-b3bfd34e.js"
+    "/assets/home-8793582b.js"
   ],
   "src/pages/palaute.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/palaute-7f1606d1.js"
+    "/assets/palaute-be1a584a.js"
   ],
   "src/pages/palaute.vue": [
-    "/assets/palaute-7f1606d1.js"
+    "/assets/palaute-be1a584a.js"
   ],
   "src/pages/about.md": [
-    "/assets/about-09ca6eee.js"
+    "/assets/about-f2405e5a.js"
+  ],
+  "src/pages/README.md": [
+    "/assets/README-7096e022.js"
+  ],
+  "src/pages/404.vue": [
+    "/assets/404-317a49ae.js"
+  ],
+  "src/pages/2023.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/2023-31d076a7.js"
+  ],
+  "src/pages/2023.vue": [
+    "/assets/2023-31d076a7.js"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_-a17d9fe3.js"
   ],
   "../../../../../kartta.png": [
-    "/assets/index-78ec85a8.js",
+    "/assets/index-9ddf185c.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/kartta.vue": [
-    "/assets/index-78ec85a8.js",
+    "/assets/index-9ddf185c.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/schedule.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-78ec85a8.js",
+    "/assets/index-9ddf185c.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/schedule.vue": [
-    "/assets/index-78ec85a8.js",
+    "/assets/index-9ddf185c.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/aikataulu.md": [
-    "/assets/index-78ec85a8.js",
+    "/assets/index-9ddf185c.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/index.vue?vue&type=style&index=0&scoped=60ef4463&lang.css": [
-    "/assets/index-78ec85a8.js",
+    "/assets/index-9ddf185c.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/index.vue": [
-    "/assets/index-78ec85a8.js",
+    "/assets/index-9ddf185c.js",
     "/assets/index-d215dede.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],
