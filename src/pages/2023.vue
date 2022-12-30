@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const url = 'https://docs.google.com/forms/d/e/1FAIpQLScavRFthDJqHfdF9EXnJazuwJ_K1prMMqiDsYA8oEWlF4Buvw/viewform'
+const url = 'https://docs.google.com/forms/d/e/1FAIpQLSdcztOn2Mdk28PaxI4bVqsaIbOfSmkdonuJHflIgK1GKJ-pMQ/viewform'
 if (typeof window !== 'undefined')
   window.location.replace(url)
 </script>
@@ -7,7 +7,7 @@ if (typeof window !== 'undefined')
 <template>
   <div btn text-sm m="3 t8">
     <a :href="url">
-      Siirry palautteeseen
+      Siirry ilmoittautumiseen
     </a>
   </div>
 </template>
