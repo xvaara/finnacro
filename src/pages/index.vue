@@ -10,7 +10,7 @@
     <p>
       <em text-sm opacity-75>Finnish Acrobatic Convention</em>
     </p>
-    <div btn text-sm m="3 t8">
+    <!-- <div btn text-sm m="3 t8">
       <router-link to="/palaute">
         Palaute osallistujille
       </router-link>
@@ -19,7 +19,7 @@
       <router-link to="/2023">
         2023 kesä ennakkoilmoittautuminen
       </router-link>
-    </div>
+    </div> -->
     <p>
       <em text-sm opacity-75>A partner acrobatics convention held twice a year in Jyväskylä, Central Finland. </em>
     </p>
