@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const url = 'https://docs.google.com/forms/d/e/1FAIpQLSdcztOn2Mdk28PaxI4bVqsaIbOfSmkdonuJHflIgK1GKJ-pMQ/viewform'
+const url = 'https://google.com/'
 if (typeof window !== 'undefined')
   window.location.replace(url)
 </script>
