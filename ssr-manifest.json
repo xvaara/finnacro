@@ -1,64 +1,64 @@
 {
-  "src/layouts/home.vue": [
-    "/assets/home-19f941e9.js"
-  ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-ef6cbea1.js"
+    "/assets/404-adf1bff1.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-ef6cbea1.js"
+    "/assets/404-adf1bff1.js"
   ],
   "src/pages/palaute.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/palaute-19326728.js"
+    "/assets/palaute-79099199.js"
   ],
   "src/pages/palaute.vue": [
-    "/assets/palaute-19326728.js"
+    "/assets/palaute-79099199.js"
   ],
-  "src/pages/about.md": [
-    "/assets/about-42f450bc.js"
-  ],
-  "src/pages/README.md": [
-    "/assets/README-59732fd4.js"
+  "src/layouts/home.vue": [
+    "/assets/home-52b89e9b.js"
   ],
   "src/pages/404.vue": [
-    "/assets/404-e34e7f64.js"
+    "/assets/404-9c4649e5.js"
+  ],
+  "src/pages/2023.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/2023-4a394e3a.js"
+  ],
+  "src/pages/2023.vue": [
+    "/assets/2023-4a394e3a.js"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_-122dd8f7.js"
+  ],
+  "src/pages/README.md": [
+    "/assets/README-5a7a1ee6.js"
+  ],
+  "src/pages/about.md": [
+    "/assets/about-e05b12de.js"
   ],
   "../../../../../kartta.png": [
-    "/assets/index-cad36c17.js",
+    "/assets/index-716cfb57.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/kartta.vue": [
-    "/assets/index-cad36c17.js",
+    "/assets/index-716cfb57.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/schedule.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-cad36c17.js",
+    "/assets/index-716cfb57.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/schedule.vue": [
-    "/assets/index-cad36c17.js",
+    "/assets/index-716cfb57.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/aikataulu.md": [
-    "/assets/index-cad36c17.js",
+    "/assets/index-716cfb57.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/index.vue?vue&type=style&index=0&scoped=60ef4463&lang.css": [
-    "/assets/index-cad36c17.js",
+    "/assets/index-716cfb57.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/index.vue": [
-    "/assets/index-cad36c17.js",
+    "/assets/index-716cfb57.js",
     "/assets/index-d215dede.css"
-  ],
-  "src/pages/[...all].vue": [
-    "/assets/_...all_-cc28c346.js"
-  ],
-  "src/pages/2023.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/2023-92f493d8.js"
-  ],
-  "src/pages/2023.vue": [
-    "/assets/2023-92f493d8.js"
   ],
   "\u0000vite/modulepreload-polyfill": [],
   "node_modules/.pnpm/@vue+shared@3.2.45/node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
