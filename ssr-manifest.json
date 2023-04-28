@@ -14,7 +14,7 @@
   "../../../../../__uno.css": [
   ],
   "../../../../../kartta.png": [
-    "/assets/index-b357518c.js",
+    "/assets/index-e2841c3b.js",
     "/assets/index-d215dede.css"
   ],
   "assets/app-!~{001}~.js-unocss-hash.css": [
@@ -90,15 +90,15 @@
   "src/composables/dark.ts": [
   ],
   "src/layouts/404.vue": [
-    "/assets/404-2916660b.js"
+    "/assets/404-1f0fe36c.js"
   ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-2916660b.js"
+    "/assets/404-1f0fe36c.js"
   ],
   "src/layouts/default.vue": [
   ],
   "src/layouts/home.vue": [
-    "/assets/home-ae23216f.js"
+    "/assets/home-d42bf4f7.js"
   ],
   "src/main.ts": [
   ],
@@ -107,54 +107,54 @@
   "src/modules/pwa.ts": [
   ],
   "src/pages/2022/components/aikataulu.md": [
-    "/assets/index-b357518c.js",
+    "/assets/index-e2841c3b.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/kartta.vue": [
-    "/assets/index-b357518c.js",
+    "/assets/index-e2841c3b.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/schedule.vue": [
-    "/assets/index-b357518c.js",
+    "/assets/index-e2841c3b.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/components/schedule.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-b357518c.js",
+    "/assets/index-e2841c3b.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/index.vue": [
-    "/assets/index-b357518c.js",
+    "/assets/index-e2841c3b.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2022/index.vue?vue&type=style&index=0&scoped=60ef4463&lang.css": [
-    "/assets/index-b357518c.js",
+    "/assets/index-e2841c3b.js",
     "/assets/index-d215dede.css"
   ],
   "src/pages/2023.vue": [
-    "/assets/2023-fb3446e9.js"
+    "/assets/2023-a202d0d1.js"
   ],
   "src/pages/2023.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/2023-fb3446e9.js"
+    "/assets/2023-a202d0d1.js"
   ],
   "src/pages/404.vue": [
-    "/assets/404-59b6044d.js"
+    "/assets/404-206d5cea.js"
   ],
   "src/pages/README.md": [
-    "/assets/README-208f8852.js"
+    "/assets/README-1f4b8bd3.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-7f922edd.js"
+    "/assets/_...all_-e2f4f5f5.js"
   ],
   "src/pages/about.md": [
-    "/assets/about-7e1f85c0.js"
+    "/assets/about-9982e303.js"
   ],
   "src/pages/index.vue": [
   ],
   "src/pages/palaute.vue": [
-    "/assets/palaute-b1a2c7e8.js"
+    "/assets/palaute-ea015298.js"
   ],
   "src/pages/palaute.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/palaute-b1a2c7e8.js"
+    "/assets/palaute-ea015298.js"
   ],
   "src/styles/main.css": [
   ]
