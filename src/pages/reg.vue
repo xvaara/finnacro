@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const url = 'https://docs.google.com/forms/d/e/1FAIpQLSc_br9-qNfIIQOw1-ucoeaAw1qzegdavRBU9ndLNQzPBaIHWQ/viewform?usp=sf_link'
+const url = 'https://pilvikanava.fi/parkourakatemia/course.php?l=fi&t=3680'
 if (typeof window !== 'undefined')
   window.location.replace(url)
 </script>
@@ -7,7 +7,7 @@ if (typeof window !== 'undefined')
 <template>
   <div btn text-sm m="3 t8">
     <a :href="url">
-      Siirry palautteeseen
+      Siirry ilmoittautumiseen
     </a>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const url = 'https://pilvikanava.fi/parkourakatemia/course.php?l=fi&t=2946'
+const url = ''
 if (typeof window !== 'undefined')
   window.location.replace(url)
 </script>
