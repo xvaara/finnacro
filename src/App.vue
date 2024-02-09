@@ -19,6 +19,11 @@ useHead({
     },
   ],
 })
+import { provide, ref } from 'vue'
+import { appInfoKey } from './keys'
+const appInfo = ref({toc: null})
+provide(appInfoKey, appInfo)
+
 </script>
 
 <template>

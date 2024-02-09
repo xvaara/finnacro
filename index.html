@@ -9,9 +9,9 @@
   <script>
     (function () {
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      const setting = localStorage.getItem('bv-color-data-bs-theme-body') || 'auto'
       if (setting === 'dark' || (prefersDark && setting !== 'light'))
-        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.setAttribute('data-bs-theme','dark')
     })()
   </script>
 </head>

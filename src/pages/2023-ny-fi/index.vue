@@ -2,23 +2,61 @@
 import Kartta from './components/kartta.vue'
 import Schedule from './components/schedule.vue'
 import Aikataulu from './components/aikataulu.md'
+import {appInfoKey} from '../../keys'
+
+
+const appInfo = inject(appInfoKey)
+const page = ref(null)
+onMounted(() => {
+  appInfo.value.toc = Array.from(page.value.querySelectorAll('h2[id]')).map(el => ({
+    id: el.id,
+    text: el.textContent
+  }))
+  appInfo.value.tocLinkTitle = 'Tällä sivulla'
+})
+
 </script>
 
 <template>
-  <div class="">
+  <div ref="page" class="">
     <h1>FinnAcro 2023 uusivuosi infot</h1>
-    <h2>28. - 31.12.</h2>
+    <div class="d-flex gap-3 align-items-center mb-3">
+      <h5 class="opacity-75 mb-0">28. - 31.12.</h5>
+      <router-link  class="btn btn-primary" to="/ilmoittaudu">
+        Ilmoittautuminen
+      </router-link>
+    </div>
+    <h2 id="general">Yleiset infot</h2>
 
-    <h2>Aikataulu</h2>
-    <Aikataulu />
 
-    <h2>Workshopit</h2>
-    <Schedule />
+      <p>FinnAcro eli Finnish Acrobatics Convention uusivuosi 2023! Jyväskylässä jälleen luvassa huippu ohjaajia ja huippua meininkiä.</p>
+      <p>Älä menetä ennakkovaraajan etuasi (-40€) ja ilmoittaudu viimeistään pe 20.10.2023. Näin saat leirin hintaan 185€ (norm. 225€).</p>
+      <h5>Varausmaksu ja leirimaksun maksaminen</h5>
+      <p>Ilmoittautumisen yhteydessä maksat vain varausmaksun 35€. Leirimaksun loppusumma maksetaan maksulinkillä, joka saapuu sähköpostilla 1.11.2023.</p>
+      <h5>Ilmoittautumisen peruminen</h5>
+      <p>Ilmoittautumisen voi perua 1.11.2023 mennessä veloituksetta. 2.11.2023 alkaen perutuista ilmoittautumisista pidätämme varausmaksun. Perumiset tulee ilmoittaa osoitteeseen jyvaskyla@parkourakatemia.fi.</p>
+      <p>FinnAcroa vietetään joulun välipäivinä to-su 28.-31.12.2023 Jyväskylän Sirkuskoululla. Luvassa paljon treeniä, hauskanpitoa hyvässä porukassa ja hurjasti uutta opittavaa! Leiri on suunnattu aikuisille, mutta 16-17-vuotiaat voivat osallistua huoltajan luvalla ja 12-15-vuotiaat aikuisen seurassa.</p>
+      <p>Leirillä harjoitellaan eritasoisissa, rinnakkain järjestettävissä työpajoissa, joista löytyy jokaiselle sopivan tasoista treenattavaa, olit sitten vasta-alkaja, ammattilainen tai jotain siltä väliltä.</p>
+      <p>Tulossa ohjaamaan ainakin Kata ja Jared!. Päivitämme ohjaajat nettisivuille, facebook eventtiin ja instagramiin leirin lähestyessä. Luvassa kansainvälisiä huippuohjaajia!</p>
+      <p>LEIRI SISÄLTÄÄ:</p>
+      <ul>
+        <li>Yhteensä 10 työpajaa pariakrobatiasta, oheisharjoittelusta, ym.</li>
+        <li>Turvalliset ja tarkoituksenmukaiset permantomatoilla varustetut harjoitustilat, lisäksi käytettävissä patjoja ja lonsseja.</li>
+        <li>Mahdollisuus vapaaseen harjoitteluun Jyväskylän Sirkuskoulun tiloissa työpajojen ulkopuolella - käytössä mm. trampoliini, vertikaalikankaita, trapetsi, jongleerausvälineitä ym.</li>
+        <li>Mahdollisuus lattiamajoitukseen Jyväskylän Sirkuskoulun tiloissa Tanner-salilla (Ahjokatu 12, 40320 Jyväskylä).</li>
+        <li>Uudenvuoden jamit sunnuntaina kaikille halukkaille.</li>
+      </ul>
+      <p>Nähdään välipäivinä!</p>
+      <p>Ps. Jos mieltäsi askarruttaa kysymys, joka vaatii pikaista vastausta, ota yhteyttä tapahtumajärjestäjään: <a href="mailto:jukka.raimovaara@sirkuskoulu.fi">jukka.raimovaara@sirkuskoulu.fi</a></p>
 
-    <h2>Tilat</h2>
 
-    <div flex flex-wrap lg:flex-nowrap gap-3 m-3>
-      <div class="lg:w-1/2">
+
+    <router-link to="/timetable"><h2 id="timetable">Aikataulu</h2></router-link>
+
+    <h2 id="spaces" class="mt-3">Tilat</h2>
+
+    <div class="d-flex flex-wrap flex-lg-nowrap gap-3 m-3">
+      <div class="col-lg-6">
         <p>
           Paikkana toimii Jyväskylän Parkourakatemia ja Sirkuskoulu, sekä Jaguars Spirit Athletes:in cheerleading sali.
           Salit sijaitsevat Jyväskylän Seppälässä, kävelyetäisyydellä toisistaan.
@@ -29,15 +67,15 @@ import Aikataulu from './components/aikataulu.md'
           Perttu <a href="tel:+358503021696">050 302 1696</a><br>
         </p>
       </div>
-      <div class="w-screen lg:w-1/2">
+      <div class="col-lg-6">
         <Kartta />
       </div>
     </div>
-    <div flex flex-wrap lg:flex-nowrap gap-3 m-3>
-      <div class="w-screen lg:w-1/2 text-center">
-        <img src="/kartta.png">
+    <div class="d-flex flex-wrap flex-lg-nowrap gap-3 m-3">
+      <div class="col-lg-6 text-center">
+        <img src="/kartta.png" class="img-fluid">
       </div>
-      <div class="w-screen lg:w-1/2 text-left m-3">
+      <div class="col-lg-6 text-left m-3">
         <ul class="list-disc">
           <li>Jyväskylän Sirkuskoulun harjoittelusali, Ahjokatu 12 - FinnAcron virallinen päämaja</li>
           <li>Cheer sali = cheerleading-seura JSA:n sali, Pääskyntie 4 - täällä pidetään osa työpajoista (ohjaajasi johdattaa sinut paikalle)</li>
@@ -48,7 +86,7 @@ import Aikataulu from './components/aikataulu.md'
         </ul>
       </div>
     </div>
-    <h2>Työpajat</h2>
+    <h2 id="workshops">Työpajat</h2>
     <div class="text-left m-3">
       <ul class="list-disc">
         <li>Työpajoja on käynnissä aina useita samanaikaisesti ja voit valita niistä omalle tasollesi ja tavoitteillesi sopivimman.</li>
@@ -57,7 +95,7 @@ import Aikataulu from './components/aikataulu.md'
       </ul>
     </div>
 
-    <h2>Ruokailu</h2>
+    <h2 id="food">Ruokailu</h2>
     <div class="text-left m-3">
       <ul class="list-disc">
         <li>Ruokailu leirin aikana on omakustanteista.</li>
@@ -70,7 +108,7 @@ import Aikataulu from './components/aikataulu.md'
       </ul>
     </div>
 
-    <h2>Majoittuminen</h2>
+    <h2 id="accommodation">Majoittuminen</h2>
     <div class="text-left m-3">
       <ul class="list-disc">
         <li>Jos olet sirkuskoululla yötä, suosittelemme yöpymistä sirkus- tai perhesalissa - valtaa paikkasi vapaasti mutta käytäthän makuupussia tai omia lakanoita.</li>
@@ -80,7 +118,7 @@ import Aikataulu from './components/aikataulu.md'
       </ul>
     </div>
 
-    <h2>Suihkut ja sauna</h2>
+    <h2 id="showers">Suihkut ja sauna</h2>
     <div class="text-left m-3">
       <ul class="list-disc">
         <li>Sirkuskoululla on käytettävissä kaksi suihkua, jotka löytyvät parkour-salin perällä sijaitsevista wc-tiloista.</li>
@@ -97,7 +135,7 @@ import Aikataulu from './components/aikataulu.md'
       </ul>
     </div>
 
-    <h2>Roskat ja kierrätys</h2>
+    <h2 id="trash">Roskat ja kierrätys</h2>
     <div class="text-left m-3">
       <ul class="list-disc">
         <li>Sirkussalin reunalta löytyy kierrätysroskikset biojätteelle, muoville, lasille ja metallille, ja näiden takaa avotoimistosta löydät paperinkeräyksen - käytäthän näitä ja autat meitä säästämään luontoa.</li>
@@ -106,7 +144,7 @@ import Aikataulu from './components/aikataulu.md'
       </ul>
     </div>
 
-    <h2>Ensiapu ja turvallisuus:</h2>
+    <h2 id="safety">Ensiapu ja turvallisuus</h2>
     <div class="text-left m-3">
       <ul class="list-disc">
         <li>Ohjaajat ovat vastuussa työpajojen turvallisuudesta - jos huomaat turvallisuusriskejä, ilmoitathan ohjaajallesi!</li>
