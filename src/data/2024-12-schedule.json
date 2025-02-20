@@ -1,0 +1,512 @@
+[
+  {
+    "day": "2024-12-27T10:00:00.000Z",
+    "from": "2024-12-27T14:00:00.000Z",
+    "to": "2024-12-27T20:00:00.000Z",
+    "topic": "Jam, cleaning and preparing the gym"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T11:00:00.000Z",
+    "to": "2024-12-28T11:30:00.000Z",
+    "topic": "Arrival at the Circus School"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T11:30:00.000Z",
+    "to": "2024-12-28T12:00:00.000Z",
+    "topic": "Important information"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T12:00:00.000Z",
+    "to": "2024-12-28T13:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Warm-up workshop at the Circus School"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T13:00:00.000Z",
+    "to": "2024-12-28T14:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Spotting workshop"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T14:00:00.000Z",
+    "to": "2024-12-28T14:30:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T14:30:00.000Z",
+    "to": "2024-12-28T16:30:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Perttu & Elsa",
+        "topic": "f2h",
+        "content": "first drills to foot to hand L-base and standing",
+        "prereqs": "none",
+        "gym": "family"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "h2h",
+        "content": "basics of hand to hand L-base and standing",
+        "prereqs": "Lbasing f2h. Flyers: Flyer can jump into handstand on floor without spotter pulling hips up.",
+        "gym": "cheer"
+      },
+      {
+        "teachers": "Inni & Sasu",
+        "topic": "mono h2h",
+        "prereqs": "Confident h2h",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Jukka & Jenni",
+        "topic": "All about the Sidestar",
+        "content": "Sidestar calibrations, free sidestar, handsfree ninjastar",
+        "prereqs": "Sidestar entry without bases hands",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 0
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T16:30:00.000Z",
+    "to": "2024-12-28T17:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T17:30:00.000Z",
+    "to": "2024-12-28T18:30:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Solo training tips for partneracrobats by Sirkusfysio"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T18:30:00.000Z",
+    "to": "2024-12-28T19:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Longes (safety lines/belt) workshop"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T16:30:00.000Z",
+    "to": "2024-12-28T20:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2024-12-28T10:00:00.000Z",
+    "from": "2024-12-28T21:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T07:30:00.000Z",
+    "to": "2024-12-29T08:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T08:00:00.000Z",
+    "to": "2024-12-29T10:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Atte",
+        "topic": "It's pitching time"
+      },
+      {
+        "teachers": "Inni & Sasu",
+        "topic": "Dynamic flow",
+        "prereqs": "some experience on standing lifts"
+      },
+      {
+        "teachers": "Risto & Julia",
+        "topic": "Towards podcheska",
+        "content": "Elevator or Toss to F2H, drills to get to Podcheska, Podcheska ",
+        "prereqs": "Tempo lift to Princess, extended hands, H2H"
+      },
+      {
+        "teachers": "Timo & Anna",
+        "topic": "\"Goofy Kitten\" flow",
+        "content": "Trickier stuff and goofy transitions",
+        "prereqs": "Solid f2h, experience with washing machines"
+      }
+    ],
+    "wsid": 1
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T10:00:00.000Z",
+    "to": "2024-12-29T11:30:00.000Z",
+    "topic": "Lunch break"
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T11:30:00.000Z",
+    "to": "2024-12-29T12:00:00.000Z",
+    "topic": "Afternoon workshop assignments"
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T12:00:00.000Z",
+    "to": "2024-12-29T14:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Julia & Paulo",
+        "topic": "High-leluia",
+        "content": "high bird, diamond, kamikaze ",
+        "prereqs": "none",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "banquine to group catches",
+        "content": "building up to banquine frontflip to group catch",
+        "prereqs": "Flyer- dive forward roll onto a crash mat, and bring a base. Bases- you have at least tried banquine before",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Usva",
+        "topic": "Dynamic 3mh",
+        "prereqs": "confident 3mh ",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Sauli & Isa",
+        "topic": "Icarian",
+        "prereqs": "Some experience for icarian",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 2
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T14:00:00.000Z",
+    "to": "2024-12-29T15:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T15:00:00.000Z",
+    "to": "2024-12-29T17:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Inni & Sasu",
+        "topic": "Grips, positions and basic moves",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Risto & Aino",
+        "topic": "Handstand on shoulders, different entries",
+        "content": "Camel recap, camel to handstand on shoulders\r\nPitch recap, pitch to handstand on shoulders.",
+        "prereqs": "Pitch basic knowledge would be nice, flayer able to hold supported handstand",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Usva",
+        "topic": "Banquine",
+        "content": "Back salto to 2mh",
+        "prereqs": "backflip on banquine",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Julia & Paulo",
+        "topic": "spyci-l-base flow transitions ",
+        "content": "hard flow bits ",
+        "prereqs": "side star, star",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 3
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T17:00:00.000Z",
+    "to": "2024-12-29T20:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T17:30:00.000Z",
+    "to": "2024-12-29T19:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Handstand with Jukka-Pekka (family gym)"
+  },
+  {
+    "day": "2024-12-29T10:00:00.000Z",
+    "from": "2024-12-29T21:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T07:30:00.000Z",
+    "to": "2024-12-30T08:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T08:00:00.000Z",
+    "to": "2024-12-30T10:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Risto & Aino",
+        "topic": "Hands-to-Hands fun time from low to high",
+        "prereqs": "It would be good to be able to stay in handstand against the wall 28 seconds ",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Inni & Sasu",
+        "topic": "Lifts and flow",
+        "prereqs": "some experience on standing lifts",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Julia & Paulo",
+        "topic": "Courbet",
+        "content": "Dynamic thrown from standing h2h to standing f2h",
+        "prereqs": "stable standing h2h",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Jukka & Jenni",
+        "topic": "\"edestakaisin\" -flow",
+        "content": "Long L-base flow",
+        "prereqs": "Monkey frog, extended f2h,",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 4
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T10:00:00.000Z",
+    "to": "2024-12-30T11:30:00.000Z",
+    "topic": "Lunch break"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T11:30:00.000Z",
+    "to": "2024-12-30T11:32:00.000Z",
+    "topic": "Group photo"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T11:32:00.000Z",
+    "to": "2024-12-30T12:00:00.000Z",
+    "topic": "Afternoon workshop assignments"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T12:00:00.000Z",
+    "to": "2024-12-30T14:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Act/performance creation",
+        "content": "Tools, exercises and dance acro for sequencing",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "3ässeses - 1",
+        "topic": "Pitching",
+        "prereqs": "Has pitched before, standging f2h",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Jukka & Lotta",
+        "topic": "two h2h entries and exits",
+        "content": "Potato sack throw to h2h, press to princes carry - Cartwheel to h2h, half kamikaze down.",
+        "prereqs": "Confident h2h",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Timo & Anna",
+        "topic": "FUNky flow",
+        "content": "Lots of delicate balancing",
+        "prereqs": "Comfortable with mono versions of basic poses",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 5
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T14:00:00.000Z",
+    "to": "2024-12-30T15:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T15:00:00.000Z",
+    "to": "2024-12-30T17:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Inni & Sasu",
+        "topic": "Getting to know standing lifts",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Usva",
+        "topic": "Baquine",
+        "content": "Different half turns",
+        "prereqs": "Solid banquine tempo ",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "backflip recatch",
+        "content": "progressive build-up for clean standing backflip recatches.",
+        "prereqs": "rf2h tempo (with or without a release). Come with a partner/trio.",
+        "gym": "Circus",
+        "max": 20
+      },
+      {
+        "teachers": "Sauli & Julia",
+        "topic": "Funky ways to F2F",
+        "prereqs": "Stable F2F",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 6
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T17:00:00.000Z",
+    "to": "2024-12-30T20:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T18:00:00.000Z",
+    "to": "2024-12-30T19:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Active mobility for acrobatics (family gym)"
+  },
+  {
+    "day": "2024-12-30T10:00:00.000Z",
+    "from": "2024-12-30T21:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2024-12-31T10:00:00.000Z",
+    "from": "2024-12-31T07:30:00.000Z",
+    "to": "2024-12-31T08:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-12-31T10:00:00.000Z",
+    "from": "2024-12-31T08:00:00.000Z",
+    "to": "2024-12-31T10:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Usva",
+        "topic": "Towards 3mh",
+        "content": "Safe introducement to different parts on doing a 3mh",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Lotta",
+        "topic": "Möyryilyä",
+        "content": "Contact improvisation + pair acrobatics, finding soft flow",
+        "prereqs": "none",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Inni & Sasu",
+        "topic": "Standing f2h and h2h",
+        "prereqs": "solid 10sec f2h and h2h",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Julia & Paulo",
+        "topic": "castaway + variations ",
+        "content": "castaway, tuck, open and bend ",
+        "prereqs": "solid basic Icarians ",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 7
+  },
+  {
+    "day": "2024-12-31T10:00:00.000Z",
+    "from": "2024-12-31T10:00:00.000Z",
+    "to": "2024-12-31T12:00:00.000Z",
+    "topic": "Lunch Break"
+  },
+  {
+    "day": "2024-12-31T10:00:00.000Z",
+    "from": "2024-12-31T12:00:00.000Z",
+    "to": "2024-12-31T14:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "3ässeses",
+        "topic": "Trio tricks",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Julia & Paulo",
+        "topic": "entries and exits to f2h",
+        "prereqs": "standing f2h ",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Free training with a coach",
+        "content": "work on anything you would like to and recieve tips and spotting form us.",
+        "prereqs": "come with a partner or group and an idea of what you would like to work on",
+        "gym": "Circus",
+        "max": 20
+      },
+      {
+        "teachers": "Jukka & Sauli",
+        "topic": "Free training with a coach",
+        "content": "work on anything you would like to and recieve tips and spotting form us.",
+        "prereqs": "come with a partner or group and an idea of what you would like to work on",
+        "gym": "Family",
+        "max": 20
+      }
+    ],
+    "wsid": 8
+  },
+  {
+    "day": "2024-12-31T10:00:00.000Z",
+    "from": "2024-12-31T14:00:00.000Z",
+    "to": "2024-12-31T15:00:00.000Z",
+    "topic": "Gathering at the Circus School and feedback"
+  },
+  {
+    "day": "2024-12-31T10:00:00.000Z",
+    "from": "2024-12-31T15:00:00.000Z",
+    "to": null,
+    "topic": "Acro jam at the gym"
+  },
+  {
+    "day": "2024-12-31T10:00:00.000Z",
+    "from": "2024-12-31T19:00:00.000Z",
+    "to": null,
+    "topic": "New years party"
+  },
+  {
+    "day": "2025-01-01T10:00:00.000Z",
+    "from": "2025-01-01T10:00:00.000Z",
+    "to": null,
+    "topic": "Go home, it's over"
+  }
+]

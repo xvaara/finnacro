@@ -1,7 +1,7 @@
 <script setup>
+import Aikataulu from './components/aikataulu.md'
 import Kartta from './components/kartta.vue'
 import Schedule from './components/schedule.vue'
-import Aikataulu from './components/aikataulu.md'
 </script>
 
 <template>

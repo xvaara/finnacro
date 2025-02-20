@@ -1,0 +1,340 @@
+[
+  {
+    "day": "2025-07-16T09:00:00.000Z",
+    "from": "2025-07-16T13:00:00.000Z",
+    "to": "2025-07-16T19:00:00.000Z",
+    "topic": "Jam, cleaning and preparing the gym"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T10:00:00.000Z",
+    "to": "2025-07-17T10:30:00.000Z",
+    "topic": "Arrival at the Circus School"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T10:30:00.000Z",
+    "to": "2025-07-17T11:00:00.000Z",
+    "topic": "Important information"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T11:00:00.000Z",
+    "to": "2025-07-17T12:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Warm-up workshop at the Circus School"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T12:00:00.000Z",
+    "to": "2025-07-17T13:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Spotting workshop"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T13:00:00.000Z",
+    "to": "2025-07-17T13:30:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T13:30:00.000Z",
+    "to": "2025-07-17T15:30:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Perttu & Elsa",
+        "topic": "f2h",
+        "content": "first drills to foot to hand L-base and standing",
+        "prereqs": "none",
+        "gym": "family"
+      },
+      {},
+      {},
+      {}
+    ],
+    "wsid": 0
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T15:30:00.000Z",
+    "to": "2025-07-17T16:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T16:30:00.000Z",
+    "to": "2025-07-17T17:30:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Solo training tips for partneracrobats by Sirkusfysio"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T17:30:00.000Z",
+    "to": "2025-07-17T18:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Longes (safety lines/belt) workshop"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T15:30:00.000Z",
+    "to": "2025-07-17T19:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2025-07-17T09:00:00.000Z",
+    "from": "2025-07-17T20:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T06:30:00.000Z",
+    "to": "2025-07-18T07:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T07:00:00.000Z",
+    "to": "2025-07-18T09:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Atte",
+        "topic": "It's pitching time"
+      },
+      {},
+      {},
+      {}
+    ],
+    "wsid": 1
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T09:00:00.000Z",
+    "to": "2025-07-18T10:30:00.000Z",
+    "topic": "Lunch break"
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T10:30:00.000Z",
+    "to": "2025-07-18T11:00:00.000Z",
+    "topic": "Afternoon workshop assignments"
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T11:00:00.000Z",
+    "to": "2025-07-18T13:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "wsid": 2
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T13:00:00.000Z",
+    "to": "2025-07-18T14:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T14:00:00.000Z",
+    "to": "2025-07-18T16:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "wsid": 3
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T16:00:00.000Z",
+    "to": "2025-07-18T19:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T16:30:00.000Z",
+    "to": "2025-07-18T18:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Handstand with Jukka-Pekka (family gym)"
+  },
+  {
+    "day": "2025-07-18T09:00:00.000Z",
+    "from": "2025-07-18T20:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T06:30:00.000Z",
+    "to": "2025-07-19T07:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T07:00:00.000Z",
+    "to": "2025-07-19T09:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "wsid": 4
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T09:00:00.000Z",
+    "to": "2025-07-19T10:30:00.000Z",
+    "topic": "Lunch break"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T10:30:00.000Z",
+    "to": "2025-07-19T10:32:00.000Z",
+    "topic": "Group photo"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T10:32:00.000Z",
+    "to": "2025-07-19T11:00:00.000Z",
+    "topic": "Afternoon workshop assignments"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T11:00:00.000Z",
+    "to": "2025-07-19T13:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "wsid": 5
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T13:00:00.000Z",
+    "to": "2025-07-19T14:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T14:00:00.000Z",
+    "to": "2025-07-19T16:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "wsid": 6
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T16:00:00.000Z",
+    "to": "2025-07-19T19:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T17:00:00.000Z",
+    "to": "2025-07-19T18:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Active mobility for acrobatics (family gym)"
+  },
+  {
+    "day": "2025-07-19T09:00:00.000Z",
+    "from": "2025-07-19T20:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2025-07-20T09:00:00.000Z",
+    "from": "2025-07-20T06:30:00.000Z",
+    "to": "2025-07-20T07:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2025-07-20T09:00:00.000Z",
+    "from": "2025-07-20T07:00:00.000Z",
+    "to": "2025-07-20T09:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "wsid": 7
+  },
+  {
+    "day": "2025-07-20T09:00:00.000Z",
+    "from": "2025-07-20T09:00:00.000Z",
+    "to": "2025-07-20T11:00:00.000Z",
+    "topic": "Lunch Break"
+  },
+  {
+    "day": "2025-07-20T09:00:00.000Z",
+    "from": "2025-07-20T11:00:00.000Z",
+    "to": "2025-07-20T13:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {},
+      {
+        "teachers": "Julia & Paulo"
+      },
+      {
+        "topic": "Free training with a coach",
+        "content": "work on anything you would like to and recieve tips and spotting form us.",
+        "prereqs": "come with a partner or group and an idea of what you would like to work on",
+        "gym": "Circus",
+        "max": 20
+      },
+      {
+        "topic": "Free training with a coach",
+        "content": "work on anything you would like to and recieve tips and spotting form us.",
+        "prereqs": "come with a partner or group and an idea of what you would like to work on",
+        "gym": "Family",
+        "max": 20
+      }
+    ],
+    "wsid": 8
+  },
+  {
+    "day": "2025-07-20T09:00:00.000Z",
+    "from": "2025-07-20T13:00:00.000Z",
+    "to": "2025-07-20T14:00:00.000Z",
+    "topic": "Gathering at the Circus School and feedback"
+  },
+  {
+    "day": "2025-07-20T09:00:00.000Z",
+    "from": "2025-07-20T14:00:00.000Z",
+    "to": null,
+    "topic": "Acro jam at the gym"
+  },
+  {
+    "day": "2025-07-20T09:00:00.000Z",
+    "from": "2025-07-20T18:00:00.000Z",
+    "to": null,
+    "topic": "New years party"
+  },
+  {
+    "day": "2025-07-21T09:00:00.000Z",
+    "from": "2025-07-21T09:00:00.000Z",
+    "to": null,
+    "topic": "Go home, it's over"
+  }
+]

@@ -1,4 +1,3 @@
-import NchanSubscriber from 'nchan'
 export interface Live {
   day: string
   from: string
@@ -18,22 +17,23 @@ interface Workshop {
 }
 const data = ref<Live[]>([])
 export default function useLive() {
-  fetch('https://test.mhx.fi/finnacro-data.json')
-    .then((res) => res.json())
-    .then((rdata) => {
-      // console.log(rdata)
-      data.value = rdata
-    })
-
-  const nchan = new NchanSubscriber('https://test.mhx.fi/finnacro-sub')
-  nchan.on('message', (event: string) => {
-    const ndata = JSON.parse(event)
-    // console.log(ndata)
-    data.value = ndata
-  })
-
-  nchan.start()
+  // fetch('https://data.mhx.fi/finnacro-data')
+  //   .then((res) => res.json())
+  //   .then((rdata) => {
+  //     // console.log(rdata)
+  //     data.value = rdata
+  //   })
+  if (typeof EventSource === 'undefined') {
+    console.log('EventSource not supported')
+    return data
+  }
+  const e = new EventSource('https://data.mhx.fi/finnacro-data')
+  e.onmessage = (event) => {
+    data.value = JSON.parse(event.data)
+  }
+  e.onerror = (event) => {
+    console.log(event)
+  }
   console.log(data)
   return data
 }
-

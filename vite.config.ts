@@ -1,22 +1,22 @@
-import path from 'path'
-import { defineConfig } from 'vite'
+import path from 'node:path'
 // import Preview from 'vite-plugin-vue-component-preview'
 import Vue from '@vitejs/plugin-vue'
-import Pages from 'vite-plugin-pages'
-import generateSitemap from 'vite-ssg-sitemap'
-import Layouts from 'vite-plugin-vue-layouts'
-import Components from 'unplugin-vue-components/vite'
+import LinkAttributes from 'markdown-it-link-attributes'
+import Shiki from 'markdown-it-shiki'
 import AutoImport from 'unplugin-auto-import/vite'
+import Icons from 'unplugin-icons/vite'
+import { BootstrapVueNextResolver } from 'unplugin-vue-components/resolvers'
+import Components from 'unplugin-vue-components/vite'
 import Markdown from 'unplugin-vue-markdown/vite'
+import { VueRouterAutoImports } from 'unplugin-vue-router'
+import VueRouter from 'unplugin-vue-router/vite'
+import { defineConfig } from 'vite'
 // import { VitePWA } from 'vite-plugin-pwa'
 // import VueI18n from '@intlify/vite-plugin-vue-i18n'
 import Inspect from 'vite-plugin-inspect'
-import LinkAttributes from 'markdown-it-link-attributes'
-import Shiki from 'markdown-it-shiki'
-import Icons from 'unplugin-icons/vite'
+import Layouts from 'vite-plugin-vue-layouts'
 
-import {BootstrapVueNextResolver} from 'unplugin-vue-components/resolvers'
-
+import generateSitemap from 'vite-ssg-sitemap'
 
 export default defineConfig({
   resolve: {
@@ -31,13 +31,13 @@ export default defineConfig({
 
     Vue({
       include: [/\.vue$/, /\.md$/],
-      reactivityTransform: true,
     }),
 
-    // https://github.com/hannoeru/vite-plugin-pages
-    Pages({
-      extensions: ['vue', 'md'],
+    // https://github.com/posva/unplugin-vue-router
+    VueRouter({
+      extensions: ['.vue', '.md'],
       exclude: ['**/components/*.*'],
+      dts: 'src/typed-router.d.ts',
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
@@ -47,11 +47,16 @@ export default defineConfig({
     AutoImport({
       imports: [
         'vue',
-        'vue-router',
+        // 'vue-router',
         // 'vue-i18n',
-        'vue/macros',
+        // 'vue/macros',
         '@vueuse/head',
         '@vueuse/core',
+        VueRouterAutoImports,
+        {
+          // add any other imports you were relying on
+          'vue-router/auto': ['useLink'],
+        },
       ],
       dts: 'src/auto-imports.d.ts',
       dirs: [
@@ -157,6 +162,10 @@ export default defineConfig({
     noExternal: ['workbox-window', /vue-i18n/],
   },
   server: {
+    // cors: {
+    //   origin: '*',
+    //   allowedHeaders: ['content-type', 'authorization'],
+    // },
     cors: false,
-  }
+  },
 })

@@ -1,17 +1,15 @@
-import { ViteSSG } from 'vite-ssg'
+import type { RouterScrollBehavior } from 'vue-router'
+import type { UserModule } from './types'
 import { setupLayouts } from 'virtual:generated-layouts'
+import { ViteSSG } from 'vite-ssg'
+import { routes } from 'vue-router/auto-routes'
+
 // import Previewer from 'virtual:vue-component-preview'
 import App from './App.vue'
-import type { UserModule } from './types'
-import type { RouterScrollBehavior } from 'vue-router'
-
-import generatedRoutes from '~pages'
 
 import 'bootstrap-styles/css/bootstrap.css'
 import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 import './styles/main.scss'
-
-const routes = setupLayouts(generatedRoutes)
 
 const scrollBehavior: RouterScrollBehavior = (to, from, savedPosition) => {
   if (to.hash) {
@@ -20,7 +18,8 @@ const scrollBehavior: RouterScrollBehavior = (to, from, savedPosition) => {
       top: 80,
       behavior: 'smooth',
     }
-  } else {
+  }
+  else {
     return new Promise((resolve) => {
       setTimeout(() => {
         if (savedPosition)
@@ -35,7 +34,7 @@ const scrollBehavior: RouterScrollBehavior = (to, from, savedPosition) => {
 // https://github.com/antfu/vite-ssg
 export const createApp = ViteSSG(
   App,
-  { routes, scrollBehavior, base: import.meta.env.BASE_URL },
+  { routes: setupLayouts(routes), scrollBehavior, base: import.meta.env.BASE_URL },
   (ctx) => {
     // install all modules under `modules/`
     Object.values(import.meta.glob<{ install: UserModule }>('./modules/*.ts', { eager: true }))

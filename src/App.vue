@@ -2,6 +2,9 @@
 // https://github.com/vueuse/head
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
+import { provide, ref } from 'vue'
+import { appInfoKey } from './keys'
+
 useHead({
   title: 'FinnAcro',
   meta: [
@@ -19,11 +22,8 @@ useHead({
     },
   ],
 })
-import { provide, ref } from 'vue'
-import { appInfoKey } from './keys'
-const appInfo = ref({toc: null})
+const appInfo = ref({ toc: null })
 provide(appInfoKey, appInfo)
-
 </script>
 
 <template>

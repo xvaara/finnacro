@@ -1,0 +1,487 @@
+[
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T10:00:00.000Z",
+    "to": "2024-07-18T10:30:00.000Z",
+    "topic": "Arrival at the Circus School"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T10:30:00.000Z",
+    "to": "2024-07-18T11:00:00.000Z",
+    "topic": "Important information"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T11:00:00.000Z",
+    "to": "2024-07-18T12:00:00.000Z",
+    "topic": "Warm-up workshop at the Circus School"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T12:00:00.000Z",
+    "to": "2024-07-18T13:00:00.000Z",
+    "topic": "Spotting workshop"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T13:00:00.000Z",
+    "to": "2024-07-18T13:30:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T13:30:00.000Z",
+    "to": "2024-07-18T15:30:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Perttu & Elsa",
+        "topic": "f2h",
+        "content": "first drills to foot to hand L-base and standing",
+        "prereqs": "none",
+        "gym": "family"
+      },
+      {
+        "teachers": "Jukka & Lotta",
+        "topic": "f2h & h2h fun",
+        "content": "L-base tricks around h2h & f2h",
+        "prereqs": "L-base f2h, some experience at L-base h2h",
+        "gym": "circus"
+      },
+      {
+        "teachers": "Meital & Evan",
+        "topic": "Advanced entries to standing h2h",
+        "prereqs": "Standing h2h",
+        "gym": "cheer"
+      },
+      {
+        "teachers": "Laura & Caspian",
+        "topic": "Courbettes and Handsprings",
+        "prereqs": "Throne to throne icarian and rev star",
+        "gym": "cheer"
+      }
+    ],
+    "wsid": 0
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T15:30:00.000Z",
+    "to": "2024-07-18T16:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T16:00:00.000Z",
+    "to": "2024-07-18T17:00:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Solo training tips for partneracrobats"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T15:30:00.000Z",
+    "to": "2024-07-18T19:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2024-07-18T09:00:00.000Z",
+    "from": "2024-07-18T19:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T06:30:00.000Z",
+    "to": "2024-07-19T07:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T07:00:00.000Z",
+    "to": "2024-07-19T09:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Meital & Evan",
+        "topic": "swinging",
+        "content": "swing technique fun!",
+        "prereqs": "mood to Play",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Podsechka",
+        "content": "drills to learn, refine and nail a podsechka",
+        "prereqs": "standing high bird, standing f2h, confident L basing h2h",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Usva Company",
+        "topic": "Banquine sequences",
+        "prereqs": "Solid straight jump on basket",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Laura & Caspian",
+        "topic": "Vishnus sacrifice",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 1
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T09:00:00.000Z",
+    "to": "2024-07-19T10:30:00.000Z",
+    "topic": "Lunch break"
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T10:30:00.000Z",
+    "to": "2024-07-19T11:00:00.000Z",
+    "topic": "Afternoon workshop assignments"
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T11:00:00.000Z",
+    "to": "2024-07-19T13:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "3 Ässesss",
+        "topic": "Intro to trio funSss",
+        "content": "Basics of \"swing\", \"banquine\", \"double pitching\"",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Free training with a coach",
+        "content": "work on anything you would like to and recieve tips and spotting form us.",
+        "prereqs": "come with a partner or group and an idea of what you would like to work on",
+        "gym": "circus"
+      },
+      {
+        "teachers": "Cecilia & Frederick",
+        "topic": "Pass the flyer",
+        "prereqs": "pre req: Solid contra f2h confident h2h",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Meital & Evan",
+        "topic": "L base flow",
+        "prereqs": "side star, star",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 2
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T13:00:00.000Z",
+    "to": "2024-07-19T14:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T14:00:00.000Z",
+    "to": "2024-07-19T16:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Cecilia & Frederick",
+        "topic": "Tempo fun (basics) and a flow in L base F2H",
+        "prereqs": "Happy to learn=)",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Meital & Evan",
+        "topic": "Intro to H2H",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "3 Ässesss",
+        "topic": "Cool shit",
+        "content": "All sorts of different standing tricks",
+        "prereqs": "Solid standing h2h or f2h",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Laura & Caspian",
+        "topic": "Corkscrewed (new twisty machine)",
+        "prereqs": "Corkscrew washing machine",
+        "gym": "Circus"
+      }
+    ],
+    "wsid": 3
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T16:00:00.000Z",
+    "to": "2024-07-19T19:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T16:30:00.000Z",
+    "to": "2024-07-19T17:30:00.000Z",
+    "topic": "Workshops",
+    "topic2": "Handstands with Kat"
+  },
+  {
+    "day": "2024-07-19T09:00:00.000Z",
+    "from": "2024-07-19T19:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T06:30:00.000Z",
+    "to": "2024-07-20T07:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T07:00:00.000Z",
+    "to": "2024-07-20T09:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Meital & Evan",
+        "topic": "Acro improvisation",
+        "content": "unlocking your inner child and creativity! a lot of play, discovery and creation",
+        "prereqs": "an open mind",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "3 Ässesss",
+        "topic": "Mastering your two man high",
+        "content": "Super technical intensive detailed climbs and postures",
+        "prereqs": "Easy 2mh (fly, base, spot)",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Courbet",
+        "prereqs": "10s standing h2h with your workshop partner",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Laura & Caspian",
+        "topic": "Hand to hand machine",
+        "prereqs": "Supported handstand",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 4
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T09:00:00.000Z",
+    "to": "2024-07-20T10:30:00.000Z",
+    "topic": "Lunch break"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T10:30:00.000Z",
+    "to": "2024-07-20T10:32:00.000Z",
+    "topic": "Group photo"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T10:32:00.000Z",
+    "to": "2024-07-20T11:00:00.000Z",
+    "topic": "Afternoon workshop assignments"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T11:00:00.000Z",
+    "to": "2024-07-20T13:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Usva Company",
+        "topic": "2+ mh",
+        "content": "Towards 3mh",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Cecilia & Frederick",
+        "topic": "Pitch/zumo pitch with some",
+        "content": "diffrent landings",
+        "prereqs": "Been standing in contra F2H",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Meital & Evan",
+        "topic": "kamikazi/cascade",
+        "prereqs": "solid standing h2h (10 seconds no steps), solid standing f2h extended",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Laura & Caspian",
+        "topic": "Whips (maybe whip pops)",
+        "prereqs": "Solid in basic washing machines",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 5
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T13:00:00.000Z",
+    "to": "2024-07-20T14:00:00.000Z",
+    "topic": "Break"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T14:00:00.000Z",
+    "to": "2024-07-20T16:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Usva Company",
+        "topic": "Group acro",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Meital & Evan",
+        "topic": "rock'nrolla",
+        "content": "Let's swing it up and get high",
+        "prereqs": "any standing base experience, supported handstand",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Group acro",
+        "content": "Banquine and unconventional boosts",
+        "prereqs": "Banquine straight throw, pitch to rev f2h, flyer bring min 1 base",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Sauli & Cecilia",
+        "topic": "Icarian",
+        "content": "Martini & Back tucks",
+        "prereqs": "pop from throne to f2f with 1 spotter, experience with rotation",
+        "gym": "Circus"
+      }
+    ],
+    "wsid": 6
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T16:00:00.000Z",
+    "to": "2024-07-20T19:00:00.000Z",
+    "topic": "Free training time"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T18:30:00.000Z",
+    "to": "2024-07-20T19:00:00.000Z",
+    "topic": "Massage corner"
+  },
+  {
+    "day": "2024-07-20T09:00:00.000Z",
+    "from": "2024-07-20T19:00:00.000Z",
+    "to": null,
+    "topic": "Silence at the Circus School"
+  },
+  {
+    "day": "2024-07-21T09:00:00.000Z",
+    "from": "2024-07-21T06:30:00.000Z",
+    "to": "2024-07-21T07:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-07-21T09:00:00.000Z",
+    "from": "2024-07-21T07:00:00.000Z",
+    "to": "2024-07-21T09:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Dance Acro",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Usva Company",
+        "topic": "3mh",
+        "prereqs": "Solid 2mh",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Cecilia & Frederick",
+        "topic": "Extended F2H",
+        "content": "Mono F2H",
+        "prereqs": "stable F2H, standing bird, standing sidestar",
+        "gym": "Circus"
+      },
+      {
+        "teachers": "Meital & Evan",
+        "topic": "bouncy flow",
+        "content": "we're gonna flow and pop!",
+        "prereqs": "reverse star, bird on hands, reverse throne",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 7
+  },
+  {
+    "day": "2024-07-21T09:00:00.000Z",
+    "from": "2024-07-21T09:00:00.000Z",
+    "to": "2024-07-21T10:30:00.000Z",
+    "topic": "Lunch Break"
+  },
+  {
+    "day": "2024-07-21T09:00:00.000Z",
+    "from": "2024-07-21T10:30:00.000Z",
+    "to": "2024-07-21T11:00:00.000Z",
+    "topic": "Workshop assignments at the Circus School"
+  },
+  {
+    "day": "2024-07-21T09:00:00.000Z",
+    "from": "2024-07-21T11:00:00.000Z",
+    "to": "2024-07-21T13:00:00.000Z",
+    "topic": "Workshops",
+    "ws": [
+      {
+        "teachers": "Atte",
+        "topic": "standing acro tempo tricks (jk: it’s pitching)",
+        "gym": "Cheer"
+      },
+      {
+        "teachers": "Kat & Jared",
+        "topic": "Free training with a coach",
+        "content": "work on anything you would like to and recieve tips and spotting form us.",
+        "prereqs": "come with a partner or group and an idea of what you would like to work on",
+        "gym": "Circus",
+        "max": 18
+      },
+      {
+        "teachers": "Sauli & Meital",
+        "topic": "Icarians - cascades and front tucks",
+        "content": "we'll throw and catch cascades and front tucks, from throne and from f2f!",
+        "prereqs": "throne to f2f",
+        "gym": "Family"
+      },
+      {
+        "teachers": "Laura & Caspian",
+        "topic": "Create your own flow",
+        "content": "We will give you tools and concepts to create your own flows, teach you unique and funky transitions and entries and exits and some of our personal creations, and then give you time to create your own things!",
+        "gym": "Cheer"
+      }
+    ],
+    "wsid": 8
+  },
+  {
+    "day": "2024-07-21T09:00:00.000Z",
+    "from": "2024-07-21T13:00:00.000Z",
+    "to": "2024-07-21T14:00:00.000Z",
+    "topic": "Gathering at the Circus School and feedback"
+  },
+  {
+    "day": "2024-07-21T09:00:00.000Z",
+    "from": "2024-07-21T14:00:00.000Z",
+    "to": null,
+    "topic": "Acro jam at the park or gym"
+  }
+]

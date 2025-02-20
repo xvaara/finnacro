@@ -35,4 +35,3 @@
 - 14:00 - 16:00 Työpajat
 - 16:00 - 17:00 Kokoontuminen Sirkuskoululla ja palautteet
 - 18:00 → Akrojamit puistossa ja illanviettoa
-
